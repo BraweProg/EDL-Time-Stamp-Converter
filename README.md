@@ -2,9 +2,9 @@
 Video editing programs (e.g. Video De Luxe, Video Pro Xxx) from the manufacturer Magix offer the option of outputting HD and FHD as DVD or BD, including chapter markers between which you can jump back and forth during playback. When outputting UHD and UHD2, this option has not yet been available, as no BDs can be created for UHD/2.
 So far, as a workaround, I've created UHD/2 files as MP4, imported them into MKVToolNix and created chapter markers there, in certain period of time, e.g. every 2 minutes. This enables a rough navigation. The output from MKVToolNix produces containers in MKV format (Matroska format).
 
-However, the video editing programs mentioned allow EDL editing lists to be generated for the in-house products Sequoia and Samplitude, which contain chapter markers and time information. A cutting list Edit Decision List (EDL), is the description of an edited version of a film or video. However, MKVToolNix cannot process these lists. This program converts the EDL lists from Magix into a form that MKVToolNix can read.
+However, the video editing programs mentioned allow EDL editing lists to be generated for the in-house products Sequoia and Samplitude, which contain chapter markers and time information. A cutting list, Edit Decision List (EDL), is the description of an edited version of a film or video. However, MKVToolNix cannot process these lists directly. This program converts the EDL lists from Magix into a form that MKVToolNix can process.
 
-Standard chapter markers must be created and exported in the video editing programs, so that the converter can handle them. You can then use MKVToolNix to download the MP4 file from your Video editing program and multiplex the video with the converter's EDL file and get a video file with the extension .mkv.
+Workflow: Standard chapter markers must be created and exported in the video editing programs, so that the converter can handle them. You can then use MKVToolNix to download the MP4 file from your Video editing program and multiplex the video with the converter's EDL file and get a video file with the extension .mkv.
 
 This program, written in Python 3.11, for converting EDL time stamps into Matroska chapter markers, which can be processed by MKVToolNix.
 With graphical user interface Tkinter, OS independent, file explorer.
