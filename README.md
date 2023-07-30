@@ -87,8 +87,8 @@ Markerlist:
      2615040     106                      "Chapter 6"
    209011788     102                      "E"
 >
-Example chapter marker file as output of the above input file (between <>):
-<
+Example chapter marker file as output of the above input file:
+
 CHAPTER01=00:00:00.000
 CHAPTER01NAME=Chapter 1
 CHAPTER02=00:01:16.000
@@ -101,4 +101,4 @@ CHAPTER05=00:06:22.000
 CHAPTER05NAME=Chapter 5
 CHAPTER06=00:09:04.800
 CHAPTER06NAME=Chapter 6
->
+
