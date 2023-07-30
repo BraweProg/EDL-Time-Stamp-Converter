@@ -1,6 +1,6 @@
 # EDL-Time-Stamp-Converter
 Video editing programs (e.g. Video De Luxe, Video Pro Xxx) from the manufacturer Magix offer the option of outputting HD and FHD as DVD or BD, including chapter markers between which you can jump back and forth during playback. When outputting UHD and UHD2, this option has not yet been available, as no BDs can be created for UHD/2.
-So far, as a workaround, I've created UHD/2 files as MP4, imported them into MKVToolNix and created chapter markers there, that created markers in certain periods of time, e.g. every 2 minutes. This enables rough navigation. The output from MKVToolNix produces containers in MKV format (Matroska format).
+So far, as a workaround, I've created UHD/2 files as MP4, imported them into MKVToolNix and created chapter markers there, in certain period of time, e.g. every 2 minutes. This enables a rough navigation. The output from MKVToolNix produces containers in MKV format (Matroska format).
 
 However, the video editing programs mentioned allow EDL editing lists to be generated for the in-house products Sequoia and Samplitude, which contain chapter markers and time information. A cutting list Edit Decision List (EDL), is the description of an edited version of a film or video. However, MKVToolNix cannot process these lists. This program converts the EDL lists from Magix into a form that MKVToolNix can read.
 
