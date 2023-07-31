@@ -15,7 +15,7 @@ The following time stamps in row 'Play-in' are converted. Rows 'Type-ID', 'CP', 
 Rows with 'name' containg 'S', 'P' and 'E' are neglected. The time factor to convert the values in row 'Play-In' into seconds is the audio sampling rate
 and is taken from the 3rd line of the EDL file. Default is 48000. The resulting time stamp has the format "hh:mm:ss.sss".
 Output is into an ASCII text file (*.txt). Each processed input line results in two output lines, first one with CHAPTERxy='time stamp' and second one with CHAPTERxyNAME='name'.
-Process all lines until you reach EOF or the first empty line.
+Processes all lines until EOF or the first empty line is reached.
 The input file name has .edl as ending. The output file name is the same as of the EDL file, but endig .txt. The directory is also the same.
 
 Example EDL file:
