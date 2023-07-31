@@ -19,6 +19,7 @@ Process all lines until you reach EOF or the first empty line.
 The input file name has .edl as ending. The output file name is the same as of the EDL file, but endig .txt. The directory is also the same.
 
 Example EDL file (between <>):
+
 <
 Samplitude EDL File Format Version 1.7 
 Title: "2021 Schweiz.MVD" 
