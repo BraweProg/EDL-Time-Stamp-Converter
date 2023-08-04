@@ -4,8 +4,7 @@ So far, as a workaround, I've created UHD/2 files as MP4, imported them into MKV
 
 However, the video editing programs mentioned allow EDL editing lists to be generated for the in-house products Sequoia and Samplitude, which contain chapter markers and time information. A cutting list, Edit Decision List (EDL), is the description of an edited version of a film or video. However, MKVToolNix cannot process these lists directly. This program converts the EDL lists from Magix into a form that MKVToolNix can process.
 
-Workflow: Standard chapter markers must be created and exported in the video editing programs, so that the converter can handle them. Convert the EDL-file. ![grafik](https://github.com/BraweProg/EDL-Time-Stamp-Converter/assets/125688979/5e3e90df-6bd1-4ecb-91d5-d3884c674440)
-You can then use MKVToolNix to download the MP4 file from your Video editing program and multiplex the video with the converter's EDL file and get a video file with the extension .mkv.
+Workflow: Standard chapter markers must be created and exported in the video editing programs, so that the converter can handle them. Convert the EDL-file. You can then use MKVToolNix to download the MP4 file from your Video editing program and multiplex the video with the converter's EDL file and get a video file with the extension .mkv.
 
 This program, written in Python 3.11, can convert Magix EDL time stamps into Matroska chapter markers, which can be processed by MKVToolNix.
 With graphical user interface Tkinter, OS independent, opens a file explorer.
