@@ -26,28 +26,47 @@ Processes all lines until EOF or the first empty line is reached.
 The input file name has .edl as ending. The output file name is the same as of the EDL file, but endig .txt. The directory is also the same.
 
 Example EDL file:
-Samplitude EDL File Format Version 1.7 
-Title: "2021 Schweiz.MVD" 
-Sample Rate: 48000 
-Output Channels: 2 
-Software VideoDeLuxe 
-Softversion 20.0.3.176 
+
+Samplitude EDL File Format Version 1.7
+
+Title: "2021 Schweiz.MVD"
+
+Sample Rate: 48000
+
+Output Channels: 2
+
+Software VideoDeLuxe
+
+Softversion 20.0.3.176
+
 .
 .
 .
+
 Markerlist:
+
 #Play-In     Type-ID CP EM ISRC           Name
+
 #----------- ------- -- -- -------------- ----
+
            0     106                      "Chapter 1"
+           
            0     101                      "S"
+           
       364800     106                      "Chapter 2"
+      
       892800     106                      "Chapter 3"
+      
      1305600     106                      "Chapter 4"
+     
      1833600     106                      "Chapter 5"
+     
      2615040     106                      "Chapter 6"
+     
    209011788     102                      "E"
 
 Example chapter marker file as output of the above input file:
+
 CHAPTER01=00:00:00.000
 
 CHAPTER01NAME=Chapter 1
