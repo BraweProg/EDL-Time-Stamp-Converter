@@ -43,22 +43,15 @@ Softversion 20.0.3.176
 .
 Markerlist:
 
-Play-In     Type-ID CP EM ISRC           Name
------------ ------- -- -- -------------- ----
-           0     106                      "Chapter 1"
-           
-           0     101                      "S"
-           
-      364800     106                      "Chapter 2"
-      
-      892800     106                      "Chapter 3"
-      
-     1305600     106                      "Chapter 4"
-     
-     1833600     106                      "Chapter 5"
-     
-     2615040     106                      "Chapter 6"
-     
+#Play-In     Type-ID CP EM ISRC           Name
+#----------- ------- -- -- -------------- ----
+           0     106                      "Chapter 1"           
+           0     101                      "S"           
+      364800     106                      "Chapter 2"      
+      892800     106                      "Chapter 3"      
+     1305600     106                      "Chapter 4"     
+     1833600     106                      "Chapter 5"     
+     2615040     106                      "Chapter 6"     
    209011788     102                      "E"
 
 
