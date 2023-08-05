@@ -27,58 +27,36 @@ The input file name has .edl as ending. The output file name is the same as of t
 
 Example EDL file:
 
-Samplitude EDL File Format Version 1.7
+Samplitude EDL File Format Version 1.7 
+Title: "2023 Norwegen.MVD" 
+Sample Rate: 48000 
+Output Channels: 2 
+Software VideoDeLuxe 
+Softversion 20.0.3.181
 
-Title: "2021 Schweiz.MVD"
-
-Sample Rate: 48000
-
-Output Channels: 2
-
-Software VideoDeLuxe
-
-Softversion 20.0.3.176
-.
-.
-.
 Markerlist:
-
 #Play-In     Type-ID CP EM ISRC           Name
 #----------- ------- -- -- -------------- ----
+           0     106                      "Kapitel 1"
+           0     101                      "S"
+      806400     106                      "Kapitel 2"
+      806400     116                      "P"
+     1478400     106                      "Kapitel 3"
+     2150400     106                      "Kapitel 4"
+     2822400     106                      "Kapitel 5"
+     3494400     106                      "Kapitel 6"
 
-           0     106                      "Chapter 1"           
-           0     101                      "S"           
-      364800     106                      "Chapter 2"      
-      892800     106                      "Chapter 3"      
-     1305600     106                      "Chapter 4"     
-     1833600     106                      "Chapter 5"     
-     2615040     106                      "Chapter 6"     
-   209011788     102                      "E"
-
-
-Example chapter marker file as output of the above input file:
+Example converted EDL file:
 
 CHAPTER01=00:00:00.000
-
 CHAPTER01NAME=1
-
-CHAPTER02=00:01:16.000
-
+CHAPTER02=00:00:16.000
 CHAPTER02NAME=2
-
-CHAPTER03=00:03:06.000
-
+CHAPTER03=00:00:30.000
 CHAPTER03NAME=3
-
-CHAPTER04=00:04:32.000
-
+CHAPTER04=00:00:44.000
 CHAPTER04NAME=4
-
-CHAPTER05=00:06:22.000
-
+CHAPTER05=00:00:58.000
 CHAPTER05NAME=5
-
-CHAPTER06=00:09:04.800
-
+CHAPTER06=00:01:12.000
 CHAPTER06NAME=6
-
