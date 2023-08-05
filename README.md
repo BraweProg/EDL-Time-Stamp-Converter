@@ -32,55 +32,9 @@ Sample Rate: 48000
 Output Channels: 2 
 Software VideoDeLuxe 
 Softversion 20.0.3.176 
-
-Source Table Entries: 319 
-   1 "E:\Bilder\2021_Schweiz\P1030989.JPG" VIDEO
-   2 "E:\Bilder\2021_Schweiz\P1010270.MP4" VIDEO
-   3 "E:\Bilder\2021_Schweiz\P1010271.JPG" VIDEO
-   4 "E:\Bilder\2021_Schweiz\P1010272.MP4" VIDEO
-   5 "E:\Bilder\2021_Schweiz\P1010273.MP4" VIDEO
-   6 "E:\Bilder\2021_Schweiz\P1010275.MP4" VIDEO
-   7 "E:\Bilder\2021_Schweiz\P1010276.JPG" VIDEO
-
-Track 6: "Spur:" Solo: 0 Mute: 0 
-#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
-#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
-
-Track 7: "Spur:" Solo: 0 Mute: 0 
-#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
-#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
-     34     7    26378880    26954880       72000      648000     0.00  0  0        48000     0 "*default"                                48000     0 "*default"                         "DSC_0941.JPG"
-    291     7    80657280    81233280       72000      648000     0.00  0  0        48000     0 "*default"                                48000     0 "*default"                         "IMG20210925143514.jpg"
-    290     7    81185280    81761280       72000      648000     0.00  0  0        48000     0 "*default"                                48000     0 "*default"                         "IMG20210925143522.jpg"
-    294     7    81713280    82289280       72000      648000     0.00  0  0        48000     0 "*default"                                48000     0 "*default"                         "0-02-05-377c57867f9461ac49eff9cc94054ff3977cc1f3fc38d786f561b72dc83afcdf_78b9fcc0f56670c0.jpg"
-    292     7    84353280    84929280       72000      648000     0.00  0  0        48000     0 "*default"                                48000     0 "*default"                         "IMG20210925160357.jpg"
-
-Pan for Track 6:
-#Play-In      Pan(0...2)
-#----------- ---------
-           0   1.00000
-
-Volume for Track 7:
-#Play-In       Vol(dB)
-#----------- ---------
-           0    -0.000
-
-Pan for Track 7:
-#Play-In      Pan(0...2)
-#----------- ---------
-           0   1.00000
-
-Volume for Track 8:
-#Play-In       Vol(dB)
-#----------- ---------
-           0    -0.000
-
-Pan for Track 8:
-#Play-In      Pan(0...2)
-#----------- ---------
-           0   1.00000
-
-
+.
+.
+.
 Markerlist:
 #Play-In     Type-ID CP EM ISRC           Name
 #----------- ------- -- -- -------------- ----
@@ -95,14 +49,25 @@ Markerlist:
 
 Example chapter marker file as output of the above input file:
 CHAPTER01=00:00:00.000
+
 CHAPTER01NAME=Chapter 1
+
 CHAPTER02=00:01:16.000
+
 CHAPTER02NAME=Chapter 2
+
 CHAPTER03=00:03:06.000
+
 CHAPTER03NAME=Chapter 3
+
 CHAPTER04=00:04:32.000
+
 CHAPTER04NAME=Chapter 4
+
 CHAPTER05=00:06:22.000
+
 CHAPTER05NAME=Chapter 5
+
 CHAPTER06=00:09:04.800
+
 CHAPTER06NAME=Chapter 6
