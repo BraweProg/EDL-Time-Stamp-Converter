@@ -27,24 +27,40 @@ The input file name has .edl as ending. The output file name is the same as of t
 
 Example EDL file:
 
-Samplitude EDL File Format Version 1.7 
-Title: "2023 Norwegen.MVD" 
-Sample Rate: 48000 
-Output Channels: 2 
-Software VideoDeLuxe 
+Samplitude EDL File Format Version 1.7
+
+Title: "2023 Norwegen.MVD"
+
+Sample Rate: 48000
+
+Output Channels: 2
+
+Software VideoDeLuxe
+
 Softversion 20.0.3.181
 
 Markerlist:
+
 #Play-In     Type-ID CP EM ISRC           Name
+
 #----------- ------- -- -- -------------- ----
+
            0     106                      "Kapitel 1"
+
            0     101                      "S"
+
       806400     106                      "Kapitel 2"
+
       806400     116                      "P"
+
      1478400     106                      "Kapitel 3"
+
      2150400     106                      "Kapitel 4"
+
      2822400     106                      "Kapitel 5"
+
      3494400     106                      "Kapitel 6"
+
 
 Example converted EDL file:
 
