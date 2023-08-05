@@ -26,7 +26,7 @@ Processes all lines until EOF or the first empty line is reached.
 The input file name has .edl as ending. The output file name is the same as of the EDL file, but endig .txt. The directory is also the same.
 
 Example EDL file:
-
+#
 Samplitude EDL File Format Version 1.7
 
 Title: "2021 Schweiz.MVD"
@@ -62,9 +62,10 @@ Markerlist:
      2615040     106                      "Chapter 6"
      
    209011788     102                      "E"
+#
 
 Example chapter marker file as output of the above input file:
-
+#
 CHAPTER01=00:00:00.000
 
 CHAPTER01NAME=Chapter 1
@@ -88,3 +89,4 @@ CHAPTER05NAME=Chapter 5
 CHAPTER06=00:09:04.800
 
 CHAPTER06NAME=Chapter 6
+#
