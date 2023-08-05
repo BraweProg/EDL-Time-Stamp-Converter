@@ -45,10 +45,8 @@ Softversion 20.0.3.176
 
 Markerlist:
 
-"#Play-In     Type-ID CP EM ISRC           Name
-
+#Play-In     Type-ID CP EM ISRC           Name
 #----------- ------- -- -- -------------- ----
-
            0     106                      "Chapter 1"
            
            0     101                      "S"
@@ -63,7 +61,7 @@ Markerlist:
      
      2615040     106                      "Chapter 6"
      
-   209011788     102                      "E""
+   209011788     102                      "E"
 
 Example chapter marker file as output of the above input file:
 
